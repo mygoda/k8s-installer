@@ -299,8 +299,8 @@ fi
 trap before_exit EXIT
 install_etcd
 
-trap before_exit EXIT
-download_kubernetes_release
+#trap before_exit EXIT
+#download_kubernetes_release
 
 trap before_exit EXIT
 extract_server_binaries
