@@ -17,6 +17,8 @@
 if [[ $# > 0 ]]; then
   if [[ "$1" == "slave" ]]; then
     export INSTALLER_TYPE=slave
+  elif [[ "$1" == "slave1" ]]; then
+    export INSTALLER_TYPE=slave
   else
     export INSTALLER_TYPE=master
   fi
