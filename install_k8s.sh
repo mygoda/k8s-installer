@@ -33,7 +33,7 @@ echo "####################################################################"
 export MASTER_IP=192.168.1.7
 export SLAVE_IP=192.168.1.5
 export SLAVE1_IP=192.168.1.3
-export KUBERNETES_RELEASE_VERSION=v0.12.0
+export KUBERNETES_RELEASE_VERSION=v1.0.1
 export ETCD_VERSION=v2.0.5
 export KUBERNETES_CLUSTER_ID=democluster
 
